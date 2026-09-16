@@ -1,4 +1,4 @@
-const APPS_SCRIPT_URL = '(https://script.google.com/macros/s/AKfycbwmauo8fTLHc3_SeUgRIp8O-HRnkKpO_9Zt0gsGjdLokrCsC1dwGMm8hAgSHcPtix5e-w/exec)';
+const APPS_SCRIPT_URL = '(https://script.google.com/macros/s/AKfycbz-XLyQbhV6Hl5aDeHmklcCXd99b8HZQWMuZPw8AfEvnueCqloDfCiAFuIKSWwXUMz9hg/exec)';
 const CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSHsUr_-ZhzVnquPFhFPfuhSV_yjMf1XcvXyywckh7jMQVB7QPR0EuQNDEjsyIz3EJFYQQspQLlkY6I/pub?output=csv';
 
 document.addEventListener('DOMContentLoaded', () => {
