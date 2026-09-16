@@ -1,0 +1,33 @@
+[
+  {
+    "id": "krapao-pig",
+    "name": "ผัดกะเพราหมูสับราดข้าว",
+    "category": "spicy",
+    "price": 50,
+    "image": "krapao.jpg",
+    "description": "กะเพราแท้รสจัดจ้าน ผัดแห้งหอมกลิ่นกระทะ เสิร์ฟพร้อมข้าวสวยร้อนๆ"
+  },
+  {
+    "id": "krapao-crispy-pork",
+    "name": "ผัดกะเพราหมูกรอบราดข้าว",
+    "category": "spicy",
+    "price": 65,
+    "image": "krapao-crispy.jpg",
+    "description": "หมูกรอบชิ้นโต หนังกรอบสะท้านลิ้น ผัดกะเพรารสเด็ดเผ็ดกำลังดี"
+  },
+  {
+    "id": "fried-rice-pig",
+    "name": "ข้าวผัดหมู นุ่มละมุน",
+    "category": "fried-rice",
+    "price": 50,
+    "image": "fried-rice.jpg",
+    "description": "ข้าวผัดเม็ดสวย หอมกลิ่นกระทะ ใส่เนื้อหมูหมักนุ่มและผักสดกรอบ"
+  },
+   {
+    "id": "tom-yum-seafood",
+    "name": "ต้มยำกุ้งน้ำข้น ราดข้าว",
+    "category": "spicy",
+    "price": 80,
+    "image": "tomyum.jpg",
+    "description": "ต้มยำกุ้งสดรสแซ่บ เข้มข้นถึงเครื่องต้มยำ สมุนไพรจัดเต็ม"
+  }]

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>เมนูอาหารทั้งหมด - สั่งตามใจ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a href="index.html" class="logo">🍳 สั่งตามใจ</a>
+    <nav>
+      <a href="index.html">หน้าแรก</a>
+      <a href="product.html">เมนูอาหาร</a>
+      <a href="admin.html">ระบบแอดมิน</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1 style="text-align: center; margin-bottom: 2rem;">เมนูอาหารทั้งหมด</h1>
+    
+    <div id="filter-bar" class="filter-bar">
+      <button class="filter-btn active" data-category="all">ทั้งหมด</button>
+      <button class="filter-btn" data-category="spicy">🌶️ เผ็ดแซ่บ</button>
+      <button class="filter-btn" data-category="fried-rice">🍚 ข้าวผัด</button>
+      <button class="filter-btn" data-category="noodle">🍜 เมนูเส้น</button>
+      <button class="filter-btn" data-category="addon">🍳 ท็อปปิ้ง</button>
+    </div>
+
+    <div id="product-list" class="product-grid"></div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 ร้านอาหารตามสั่งสั่งตามใจ. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

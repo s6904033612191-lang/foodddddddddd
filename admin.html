@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>รายการออเดอร์เข้า - สั่งตามใจ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a href="index.html" class="logo">🍳 สั่งตามใจ</a>
+    <nav>
+      <a href="index.html">หน้าแรก</a>
+      <a href="product.html">เมนูอาหาร</a>
+      <a href="admin.html">ระบบแอดมิน</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1 style="margin-bottom: 2rem; color: var(--primary-orange);">ออเดอร์อาหารล่าสุด</h1>
+    <div style="overflow-x: auto;">
+      <table id="ordersTable" class="admin-table">
+        <thead>
+          <tr>
+            <th>เวลาสั่งซื้อ</th>
+            <th>ชื่อผู้สั่ง</th>
+            <th>เบอร์ติดต่อ</th>
+            <th>รายการอาหาร</th>
+            <th>ยอดรวม</th>
+            <th>หมายเหตุ / รายละเอียด</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- ข้อมูลจะโหลดอัตโนมัติ -->
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 ร้านอาหารตามสั่งสั่งตามใจ. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
